@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Contact Us - Invenza';
-$pageDescription = 'Get in touch with Invenza. Contact us for inquiries, partnerships, or to learn more about our pharmaceutical products and services.';
+$pageDescription = 'Contact Invenza Life Sciences – Hyderabad. Inquiries, partnerships, product info, and support. Phone, email, and office address. Get in touch today.';
 
 $message = '';
 $messageType = '';
@@ -67,7 +67,8 @@ include 'includes/page-banner.php';
 
 <section>
     <div class="container">
-        <h1 class="section-title">Contact Us</h1>
+        <h1 class="section-title">Contact Invenza Life Sciences</h1>
+        <p style="text-align: center; margin-bottom: 2rem; color: var(--text); max-width: 600px; margin-left: auto; margin-right: auto;">Have a question, partnership idea, or need product information? Reach out via the form below or use our phone, email, or visit our Hyderabad office.</p>
         
         <?php if ($message): ?>
             <div class="message <?php echo $messageType; ?>">
@@ -95,7 +96,7 @@ include 'includes/page-banner.php';
                     <div class="form-group">
                         <label for="phone">Phone</label>
                         <span class="form-icon">📞</span>
-                        <input type="tel" id="phone" name="phone" placeholder="+1 (555) 123-4567" value="<?php echo isset($phone) ? htmlspecialchars($phone) : ''; ?>" required>
+                        <input type="tel" id="phone" name="phone" placeholder="+91 9207973906" value="<?php echo isset($phone) ? htmlspecialchars($phone) : ''; ?>" required>
                     </div>
                     
                     <div class="form-group">
@@ -147,7 +148,7 @@ include 'includes/page-banner.php';
                         <h4>Address</h4>
                         <p>Corporate Office: Vasavi Shalom</p>
                         <p>Sky City, Gachibowli</p>
-                        <p>Telangana, Hyderabad 500032</p>
+                        <p>Telangana-500032, Hyderabad</p>
                     </div>
                 </div>
                 

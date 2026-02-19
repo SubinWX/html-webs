@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'About Us - Invenza';
-$pageDescription = 'Learn about Invenza\'s mission, values, and commitment to advancing healthcare through pharmaceutical innovation.';
+$pageDescription = 'Invenza Life Sciences – pharmaceutical company since 2019. Our mission, values, WHO-GMP manufacturing, and commitment to quality healthcare and affordable medicines.';
 $pageBannerTitle = 'About Us';
 $pageBannerImage = 'assets/images/banner-slide-1.png';
 include 'includes/header.php';
@@ -12,9 +12,9 @@ include 'includes/page-banner.php';
     <div class="container">
         <div class="about-content">
             <h1 class="section-title">About Invenza</h1>
-            <p>Founded in 2000, Invenza has been at the forefront of pharmaceutical innovation for over two decades. What started as a small research facility has grown into a globally recognized pharmaceutical company, serving millions of patients worldwide.</p>
+            <p>Invenza Life Sciences was founded in 2019 with a clear mission: to advance healthcare through quality pharmaceuticals and make essential medicines accessible. Today we are a trusted name in the industry, serving healthcare providers and patients with a focus on safety, efficacy, and affordability.</p>
             
-            <p>Our mission is to improve global health outcomes by developing, manufacturing, and distributing high-quality pharmaceutical products that address critical healthcare needs. We believe that access to safe, effective medications is a fundamental right, and we work tirelessly to make this a reality.</p>
+            <p>Our work centres on developing, manufacturing, and distributing pharmaceutical products that meet real healthcare needs. We believe everyone deserves access to safe, effective medicines, and we combine rigorous quality standards with efficient operations to deliver on that commitment.</p>
         </div>
     </div>
 </section>
@@ -51,9 +51,10 @@ include 'includes/page-banner.php';
     <div class="container">
         <h2 class="section-title">Why Choose Us</h2>
         <div class="about-content">
-            <p>Invenza stands out in the pharmaceutical industry through our unwavering commitment to quality, innovation, and patient care. We maintain the highest standards of regulatory compliance and continuously invest in advanced manufacturing technologies.</p>
-            <p>Our team consists of world-class scientists, researchers, and healthcare professionals who bring decades of combined experience to every project. We foster a culture of collaboration and continuous learning, ensuring that we stay at the cutting edge of pharmaceutical science.</p>
-            <p>We understand that healthcare needs vary across different regions and populations. That's why we develop tailored solutions and maintain flexible distribution networks to ensure our products reach those who need them most, when they need them.</p>
+            <p>Invenza differentiates itself through strict quality control, regulatory compliance, and partnerships with WHO-GMP certified manufacturers. We invest in robust processes and technology so every product meets the standards healthcare professionals and patients expect.</p>
+            <p>Our team includes experienced scientists, regulatory experts, and operations professionals who bring deep industry knowledge to product development and supply. We focus on continuous improvement and staying aligned with the latest pharmaceutical and regulatory best practices.</p>
+            <p>We recognise that healthcare needs differ by region and population. Through flexible supply chains and a diverse product range, we aim to get quality medicines to the right places at the right time.</p>
+            <p><strong>Manufacturing Partner:</strong> Our products are manufactured by M Sea Pharmaceuticals (P) Ltd., a WHO, GMP, GLP & ISO certified company based in Surajpur, Paonta Sahib, Sirmour, Himachal Pradesh-173025.</p>
         </div>
     </div>
 </section>
@@ -63,8 +64,8 @@ include 'includes/page-banner.php';
         <h2 class="section-title">Our Achievements</h2>
         <div class="stats-grid">
             <div class="stat-card">
-                <div class="stat-number">20+</div>
-                <div class="stat-label">Years of Experience</div>
+                <div class="stat-number">5+</div>
+                <div class="stat-label">Years Since 2019</div>
             </div>
             <div class="stat-card">
                 <div class="stat-number">500+</div>

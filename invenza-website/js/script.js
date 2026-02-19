@@ -84,10 +84,44 @@ document.addEventListener('DOMContentLoaded', function() {
         // Start auto-advance (auto-play)
         bannerInterval = setInterval(nextBannerSlide, 5000);
     }
+
+    // Testimonials Slider
+    const testimonialsTrack = document.querySelector('.testimonials-track');
+    const testimonialsDotsEl = document.getElementById('testimonialsDots');
+    if (testimonialsTrack && testimonialsDotsEl) {
+        const cards = testimonialsTrack.querySelectorAll('.testimonial-card');
+        const total = cards.length;
+        let testimonialIndex = 0;
+        let testimonialInterval;
+
+        function goToTestimonial(index) {
+            testimonialIndex = (index + total) % total;
+            testimonialsTrack.style.transform = 'translateX(-' + testimonialIndex * 100 + '%)';
+            cards.forEach(c => c.classList.remove('active'));
+            cards[testimonialIndex].classList.add('active');
+            const dots = testimonialsDotsEl.querySelectorAll('.dot');
+            dots.forEach((d, i) => d.classList.toggle('active', i === testimonialIndex));
+        }
+
+        for (let i = 0; i < total; i++) {
+            const dot = document.createElement('button');
+            dot.type = 'button';
+            dot.className = 'dot' + (i === 0 ? ' active' : '');
+            dot.setAttribute('aria-label', 'Testimonial ' + (i + 1));
+            dot.addEventListener('click', () => {
+                goToTestimonial(i);
+                clearInterval(testimonialInterval);
+                testimonialInterval = setInterval(() => goToTestimonial(testimonialIndex + 1), 6000);
+            });
+            testimonialsDotsEl.appendChild(dot);
+        }
+
+        testimonialInterval = setInterval(() => goToTestimonial(testimonialIndex + 1), 6000);
+    }
 });
 
 // Scroll-reveal (Intersection Observer)
-const revealTargets = document.querySelectorAll('.section-title, .card-grid, .about-content, .stats-grid, .contact-container, .gallery-grid, .cta-section');
+const revealTargets = document.querySelectorAll('.section-title, .card-grid, .about-content, .stats-grid, .contact-container, .gallery-grid, .cta-section, .testimonials-slider-wrapper');
 if (revealTargets.length && 'IntersectionObserver' in window) {
     const revealObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {

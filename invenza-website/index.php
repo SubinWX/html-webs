@@ -1,6 +1,6 @@
 <?php
-$pageTitle = 'Invenza - Leading Pharmaceutical Solutions';
-$pageDescription = 'Leading pharmaceutical company dedicated to improving healthcare through innovative solutions and quality products.';
+$pageTitle = 'Invenza Life Sciences | Pharmaceutical Company Since 2019';
+$pageDescription = 'Invenza Life Sciences – trusted pharmaceutical company since 2019. Quality medicines, WHO-GMP manufacturing, affordable healthcare. Kerala & Hyderabad.';
 $pageBannerTitle = 'Home';
 include 'includes/header.php';
 include 'includes/nav.php';
@@ -48,11 +48,11 @@ include 'includes/nav.php';
                 <span class="pre-heading-text">About Us</span>
             </span>
             <h2 class="welcome-main-title">Welcome To <span class="title-highlight">Invenza</span></h2>
-            <p class="welcome-subtitle">Leading Healthcare Solutions Since 2007</p>
+            <p class="welcome-subtitle">Leading Healthcare Solutions Since 2019</p>
         </div>
         <div class="welcome-content">
             <div class="welcome-text" data-aos="fade-right">
-                <p>We are a healthcare company based at Kerala, since 2007, led by a group of professionals having more than two decades of experience in healthcare. We started our journey with a mission of ensuring quality healthcare products at affordable price to common man.</p>
+                <p>Invenza Life Sciences is a trusted pharmaceutical company headquartered in Kerala, driving healthcare innovation since 2019. Our leadership team brings decades of combined experience in pharma and life sciences. We are committed to making quality medicines and healthcare products accessible and affordable, so every patient can benefit from reliable, evidence-based treatments.</p>
                 <a href="about.php" class="btn">Read More</a>
             </div>
             <div class="welcome-image" data-aos="fade-left">
@@ -71,7 +71,7 @@ include 'includes/nav.php';
             </div>
             <div class="manufacturing-text" data-aos="fade-right">
                 <h2 class="section-title">Manufacturing</h2>
-                <p>We believe in providing quality health care products affordable to common man hence we ensure quality raw materials by associating ourselves with high standard bulk drug manufacturers. We are getting products manufactured from reputed and top manufacturing houses like Akums Drugs & Pharmaceutical (WHO GMP), Theon Pharmaceutical (WHO GMP), MDC Pharmaceutical (WHO GMP). We, Invenza believes that quality and affordability are our basic responsibility...</p>
+                <p>Invenza partners with WHO-GMP certified manufacturers to deliver safe, effective pharmaceuticals at scale. Our products are manufactured by M Sea Pharmaceuticals (P) Ltd., a WHO, GMP, GLP & ISO certified company. We source quality raw materials from approved bulk drug suppliers and maintain strict quality control, regulatory compliance, and affordability in everything we manufacture.</p>
                 <a href="about.php" class="btn">View Details</a>
             </div>
         </div>
@@ -87,7 +87,7 @@ include 'includes/nav.php';
                 <div class="products-slider-track" id="productsSliderTrack">
                     <div class="product-card">
                         <div class="product-image">
-                            <img src="assets/images/banner-pills-1.png" alt="SMICEF 200 DT">
+                            <img src="assets/images/banner-pills-1.png" alt="Inzamox CV 625">
                             <div class="product-overlay">
                                 <button class="product-add-btn" aria-label="Add product">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -97,13 +97,13 @@ include 'includes/nav.php';
                             </div>
                         </div>
                         <div class="product-info">
-                            <h3>SMICEF 200 DT</h3>
-                            <p>Cefixime Dispersible Tablets IP</p>
+                            <h3>Inzamox CV 625</h3>
+                            <p>Amoxicillin 500mg + Clavulanic Acid 125mg Tablets</p>
                         </div>
                     </div>
                     <div class="product-card">
                         <div class="product-image">
-                            <img src="assets/images/banner-pills-2.png" alt="POLOBACT Injection">
+                            <img src="assets/images/banner-pills-2.png" alt="Inzamox 500">
                             <div class="product-overlay">
                                 <button class="product-add-btn" aria-label="Add product">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -113,13 +113,13 @@ include 'includes/nav.php';
                             </div>
                         </div>
                         <div class="product-info">
-                            <h3>POLOBACT Injection</h3>
-                            <p>Piperacillin & Tazobactam Injection I.P</p>
+                            <h3>Inzamox 500</h3>
+                            <p>Amoxicillin 500mg Capsules</p>
                         </div>
                     </div>
                     <div class="product-card">
                         <div class="product-image">
-                            <img src="assets/images/banner-pills-1.png" alt="SMICEF 200 DT">
+                            <img src="assets/images/banner-pills-1.png" alt="Mefza Forte">
                             <div class="product-overlay">
                                 <button class="product-add-btn" aria-label="Add product">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -129,13 +129,13 @@ include 'includes/nav.php';
                             </div>
                         </div>
                         <div class="product-info">
-                            <h3>SMICEF 200 DT</h3>
-                            <p>Cefixime Dispersible Tablets IP</p>
+                            <h3>Mefza Forte</h3>
+                            <p>Mefenamic Acid Tablets</p>
                         </div>
                     </div>
                     <div class="product-card">
                         <div class="product-image">
-                            <img src="assets/images/banner-pills-2.png" alt="Peptizol">
+                            <img src="assets/images/banner-pills-2.png" alt="ACLOVEN P">
                             <div class="product-overlay">
                                 <button class="product-add-btn" aria-label="Add product">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -145,13 +145,13 @@ include 'includes/nav.php';
                             </div>
                         </div>
                         <div class="product-info">
-                            <h3>Peptizol</h3>
-                            <p>Pantoprazole Gastro-Resistant Tablets IP</p>
+                            <h3>ACLOVEN P</h3>
+                            <p>Aceclofenac + Paracetamol Tablets</p>
                         </div>
                     </div>
                     <div class="product-card">
                         <div class="product-image">
-                            <img src="assets/images/banner-pills-1.png" alt="VILDACRAFT M">
+                            <img src="assets/images/banner-pills-1.png" alt="Inzapan 40">
                             <div class="product-overlay">
                                 <button class="product-add-btn" aria-label="Add product">
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -161,24 +161,8 @@ include 'includes/nav.php';
                             </div>
                         </div>
                         <div class="product-info">
-                            <h3>VILDACRAFT M</h3>
-                            <p>Vildagliptin and Metformin HCI Tablets</p>
-                        </div>
-                    </div>
-                    <div class="product-card">
-                        <div class="product-image">
-                            <img src="assets/images/banner-pills-2.png" alt="Additional Product">
-                            <div class="product-overlay">
-                                <button class="product-add-btn" aria-label="Add product">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                        <path d="M12 5v14M5 12h14"/>
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h3>Product 6</h3>
-                            <p>Additional Pharmaceutical Product</p>
+                            <h3>Inzapan 40</h3>
+                            <p>Pantoprazole 40mg Gastro-Resistant Tablets</p>
                         </div>
                     </div>
                 </div>
@@ -197,6 +181,42 @@ include 'includes/nav.php';
     </div>
 </section>
 
+<!-- Testimonials Section -->
+<section class="testimonials-section">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">What Our Partners Say</h2>
+        <p class="testimonials-intro" data-aos="fade-up">Trusted by healthcare professionals and partners across the industry.</p>
+        <div class="testimonials-slider-wrapper" data-aos="fade-up">
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <div class="testimonial-card active" data-testimonial="0">
+                        <div class="testimonial-quote">"Invenza’s commitment to quality and timely supply has made them our preferred partner. Their products meet the standards we expect for our patients."</div>
+                        <div class="testimonial-author">
+                            <span class="testimonial-name">Dr. Davis Mitchell</span>
+                            <span class="testimonial-role">Clinical Director</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-testimonial="1">
+                        <div class="testimonial-quote">"We have been working with Invenza since 2020. Their range of antibiotics and gastro products has been reliable and their team is always responsive."</div>
+                        <div class="testimonial-author">
+                            <span class="testimonial-name">Dr. Priya Sharma</span>
+                            <span class="testimonial-role">Chief Pharmacist</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card" data-testimonial="2">
+                        <div class="testimonial-quote">"Quality and affordability matter in our practice. Invenza delivers on both. I recommend their products with confidence to my patients."</div>
+                        <div class="testimonial-author">
+                            <span class="testimonial-name">Dr. Rajesh Kumar</span>
+                            <span class="testimonial-role">Consultant Physician</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonials-dots" id="testimonialsDots"></div>
+        </div>
+    </div>
+</section>
+
 <!-- Contact Info Section -->
 <section class="contact-info-section">
     <div class="container">
@@ -205,7 +225,7 @@ include 'includes/nav.php';
                 <h3>Our Contacts</h3>
                 <ul>
                     <li><strong>Email:</strong> <a href="mailto:invenzalifesciences@gmail.com">invenzalifesciences@gmail.com</a></li>
-                    <li><strong>Phone:</strong> +1 (555) 123-4567, +1 (555) 987-6543</li>
+                    <li><strong>Phone:</strong> +91 9207973906</li>
                     <li><strong>Address:</strong> 123 Medical Drive, Health City, HC 12345</li>
                 </ul>
             </div>

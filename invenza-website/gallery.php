@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Gallery - Invenza';
-$pageDescription = 'Explore our gallery showcasing our pharmaceutical facilities, research laboratories, and manufacturing processes.';
+$pageDescription = 'View Invenza Life Sciences gallery: pharmaceutical facilities, quality control labs, manufacturing, and product imagery. See how we deliver quality medicines.';
 $pageBannerTitle = 'Our Gallery';
 $pageBannerImage = 'assets/images/banner-slide-3.png';
 include 'includes/header.php';
@@ -11,36 +11,26 @@ include 'includes/page-banner.php';
 <section>
     <div class="container">
         <h1 class="section-title">Our Gallery</h1>
-        <p style="text-align: center; margin-bottom: 2rem; color: var(--text);">Explore our state-of-the-art facilities, research laboratories, and manufacturing processes that drive our commitment to pharmaceutical excellence.</p>
+        <p style="text-align: center; margin-bottom: 2rem; color: var(--text); max-width: 720px; margin-left: auto; margin-right: auto;">Discover Invenza’s facilities, quality control labs, and manufacturing processes. Our gallery highlights the standards and practices behind our pharmaceutical products and commitment to healthcare excellence.</p>
         
         <div class="gallery-grid" id="galleryGrid">
-            <!-- AI images of medicine tablets -->
             <div class="gallery-item" data-index="0">
-                <img src="assets/images/banner-pills-1.png" alt="Pharmaceutical tablets and capsules">
+                <img src="assets/images/gallery-1.png" alt="Pharmaceutical tablets and capsules">
             </div>
             <div class="gallery-item" data-index="1">
-                <img src="assets/images/banner-pills-2.png" alt="Medicine tablets in blister packs">
+                <img src="assets/images/gallery-2.png" alt="Pharmaceutical pills and capsules">
             </div>
             <div class="gallery-item" data-index="2">
-                <img src="https://via.placeholder.com/400x400/1e5d3f/ffffff?text=Quality+Control" alt="Quality Control Lab">
+                <img src="assets/images/gallery-3.png" alt="Pharmaceutical blister packs">
             </div>
             <div class="gallery-item" data-index="3">
-                <img src="https://via.placeholder.com/400x400/2d8659/ffffff?text=Pharmaceutical+Products" alt="Pharmaceutical Products">
+                <img src="assets/images/gallery-4.png" alt="Pharmaceutical tablets">
             </div>
             <div class="gallery-item" data-index="4">
-                <img src="https://via.placeholder.com/400x400/34ce57/ffffff?text=Research+Team" alt="Research Team">
+                <img src="assets/images/gallery-5.png" alt="Pharmaceutical blister pack">
             </div>
             <div class="gallery-item" data-index="5">
-                <img src="https://via.placeholder.com/400x400/1e5d3f/ffffff?text=Lab+Equipment" alt="Laboratory Equipment">
-            </div>
-            <div class="gallery-item" data-index="6">
-                <img src="https://via.placeholder.com/400x400/2d8659/ffffff?text=Production+Line" alt="Production Line">
-            </div>
-            <div class="gallery-item" data-index="7">
-                <img src="https://via.placeholder.com/400x400/34ce57/ffffff?text=Packaging+Facility" alt="Packaging Facility">
-            </div>
-            <div class="gallery-item" data-index="8">
-                <img src="https://via.placeholder.com/400x400/1e5d3f/ffffff?text=Medical+Research" alt="Medical Research">
+                <img src="assets/images/gallery-6.png" alt="Pharmaceutical pills and capsules collection">
             </div>
         </div>
     </div>

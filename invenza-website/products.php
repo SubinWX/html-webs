@@ -1,6 +1,6 @@
 <?php
 $pageTitle = 'Products - Invenza';
-$pageDescription = 'Explore our wide range of pharmaceutical products including tablets, capsules, and injections.';
+$pageDescription = 'Browse Invenza pharmaceutical products: tablets, capsules, injections. Quality medicines including antibiotics, antacids, antidiabetics, and more. WHO-GMP compliant.';
 $pageBannerTitle = 'Our Products';
 $pageBannerImage = 'assets/images/banner-slide-2.png';
 include 'includes/header.php';
@@ -10,11 +10,12 @@ include 'includes/page-banner.php';
 
 <section class="products-page-section">
     <div class="container">
-        <h2 class="section-title" data-aos="fade-up">All Products</h2>
+        <h2 class="section-title" data-aos="fade-up">Our Pharmaceutical Products</h2>
+        <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem; color: var(--text); line-height: 1.7;">Invenza offers a range of quality-assured pharmaceuticals including tablets, dispersible tablets, capsules, and injections. Our products are manufactured by WHO, GMP, GLP & ISO certified facilities and meet strict quality and regulatory standards.</p>
         <div class="products-page-grid" data-aos="fade-up" data-aos-delay="100">
             <div class="product-card" data-aos="fade-up" data-aos-delay="100">
                 <div class="product-image">
-                    <img src="assets/images/banner-pills-1.png" alt="SMICEF 200 DT">
+                    <img src="assets/images/banner-pills-1.png" alt="Inzamox CV 625">
                     <div class="product-overlay">
                         <button class="product-add-btn" aria-label="View details">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -24,13 +25,13 @@ include 'includes/page-banner.php';
                     </div>
                 </div>
                 <div class="product-info">
-                    <h3>SMICEF 200 DT</h3>
-                    <p>Cefixime Dispersible Tablets IP</p>
+                    <h3>Inzamox CV 625</h3>
+                    <p>Amoxicillin 500mg + Clavulanic Acid 125mg Tablets</p>
                 </div>
             </div>
             <div class="product-card" data-aos="fade-up" data-aos-delay="200">
                 <div class="product-image">
-                    <img src="assets/images/banner-pills-2.png" alt="Peptizol">
+                    <img src="assets/images/banner-pills-2.png" alt="Inzamox 500">
                     <div class="product-overlay">
                         <button class="product-add-btn" aria-label="View details">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -40,13 +41,13 @@ include 'includes/page-banner.php';
                     </div>
                 </div>
                 <div class="product-info">
-                    <h3>Peptizol</h3>
-                    <p>Pantoprazole Gastro-Resistant Tablets IP</p>
+                    <h3>Inzamox 500</h3>
+                    <p>Amoxicillin 500mg Capsules</p>
                 </div>
             </div>
             <div class="product-card" data-aos="fade-up" data-aos-delay="300">
                 <div class="product-image">
-                    <img src="assets/images/banner-pills-1.png" alt="VILDACRAFT M">
+                    <img src="assets/images/banner-pills-1.png" alt="Mefza Forte">
                     <div class="product-overlay">
                         <button class="product-add-btn" aria-label="View details">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -56,13 +57,13 @@ include 'includes/page-banner.php';
                     </div>
                 </div>
                 <div class="product-info">
-                    <h3>VILDACRAFT M</h3>
-                    <p>Vildagliptin and Metformin HCI Tablets</p>
+                    <h3>Mefza Forte</h3>
+                    <p>Mefenamic Acid Tablets</p>
                 </div>
             </div>
             <div class="product-card" data-aos="fade-up" data-aos-delay="400">
                 <div class="product-image">
-                    <img src="assets/images/banner-pills-2.png" alt="UPGRAD G">
+                    <img src="assets/images/banner-pills-2.png" alt="ACLOVEN P">
                     <div class="product-overlay">
                         <button class="product-add-btn" aria-label="View details">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -72,13 +73,13 @@ include 'includes/page-banner.php';
                     </div>
                 </div>
                 <div class="product-info">
-                    <h3>UPGRAD G</h3>
-                    <p>Calcium And Vitamin D3 Tablets IP</p>
+                    <h3>ACLOVEN P</h3>
+                    <p>Aceclofenac + Paracetamol Tablets</p>
                 </div>
             </div>
             <div class="product-card" data-aos="fade-up" data-aos-delay="500">
                 <div class="product-image">
-                    <img src="assets/images/banner-pills-1.png" alt="Sterocort">
+                    <img src="assets/images/banner-pills-1.png" alt="Inzapan 40">
                     <div class="product-overlay">
                         <button class="product-add-btn" aria-label="View details">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -88,24 +89,8 @@ include 'includes/page-banner.php';
                     </div>
                 </div>
                 <div class="product-info">
-                    <h3>Sterocort</h3>
-                    <p>Deflazacort Tablets 6 mg</p>
-                </div>
-            </div>
-            <div class="product-card" data-aos="fade-up" data-aos-delay="600">
-                <div class="product-image">
-                    <img src="assets/images/banner-pills-2.png" alt="POLOBACT Injection">
-                    <div class="product-overlay">
-                        <button class="product-add-btn" aria-label="View details">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M12 5v14M5 12h14"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <div class="product-info">
-                    <h3>POLOBACT Injection</h3>
-                    <p>Piperacillin & Tazobactam Injection I.P</p>
+                    <h3>Inzapan 40</h3>
+                    <p>Pantoprazole 40mg Gastro-Resistant Tablets</p>
                 </div>
             </div>
         </div>

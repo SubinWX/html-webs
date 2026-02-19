@@ -5,7 +5,7 @@
                 <div class="footer-logo">
                     <img src="assets/images/invenza-logo.png" alt="Invenza Life Sciences" class="footer-logo-img">
                 </div>
-                <p class="footer-about">We are a healthcare company based at Kerala. Since 2007, led by a group of professionals having more than two decades of healthcare experience. We started our journey with a mission of ensuring quality medicines healthcare products at affordable to common man.</p>
+                <p class="footer-about">Invenza Life Sciences Pvt. Ltd. is a pharmaceutical company driving healthcare since 2019. Our corporate office is located in Hyderabad, Telangana. We are led by professionals with deep experience in pharma and life sciences, and we are committed to quality medicines and healthcare products that are accessible and affordable. Our products are manufactured by WHO, GMP, GLP & ISO certified facilities.</p>
                 <div class="social-share">
                     <a href="#" class="social-icon" aria-label="Facebook" title="Facebook">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -34,29 +34,29 @@
                 <div class="footer-product-list">
                     <div class="footer-product-item">
                         <div class="product-thumb">
-                            <img src="assets/images/banner-pills-1.png" alt="SMICEF 200 DT">
+                            <img src="assets/images/banner-pills-1.png" alt="Inzamox CV 625">
                         </div>
                         <div class="product-details">
-                            <h5>Cefixime Dispersible Tablets IP</h5>
-                            <p>SMICEF 200 DT</p>
+                            <h5>Amoxicillin + Clavulanic Acid Tablets</h5>
+                            <p>Inzamox CV 625</p>
                         </div>
                     </div>
                     <div class="footer-product-item">
                         <div class="product-thumb">
-                            <img src="assets/images/banner-pills-2.png" alt="Peptizol">
+                            <img src="assets/images/banner-pills-2.png" alt="Mefza Forte">
                         </div>
                         <div class="product-details">
-                            <h5>Pantoprazole Gastro-Resistant Tablets IP</h5>
-                            <p>Peptizol</p>
+                            <h5>Mefenamic Acid Tablets</h5>
+                            <p>Mefza Forte</p>
                         </div>
                     </div>
                     <div class="footer-product-item">
                         <div class="product-thumb">
-                            <img src="assets/images/banner-pills-1.png" alt="VILDACRAFT M">
+                            <img src="assets/images/banner-pills-1.png" alt="Inzapan 40">
                         </div>
                         <div class="product-details">
-                            <h5>Vildagliptin and Metformin HCI Tablets</h5>
-                            <p>VILDACRAFT M</p>
+                            <h5>Pantoprazole 40mg Gastro-Resistant Tablets</h5>
+                            <p>Inzapan 40</p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@
                     </svg>
                     <div class="contact-info">
                         <p class="contact-label">Corporate Office:</p>
-                        <p>Vasavi Shalom, Sky City, Gachibowli, Telangana, Hyderabad 500032</p>
+                        <p>Vasavi Shalom, Sky City, Gachibowli, Telangana-500032, Hyderabad</p>
                         <a href="https://goo.gl/maps/vbEryPJuMpUgF32KA" target="_blank" class="map-btn">
                             Get directions on the map
                             <span class="btn-arrow">→</span>
